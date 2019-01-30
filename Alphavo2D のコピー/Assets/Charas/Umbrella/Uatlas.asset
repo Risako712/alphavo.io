@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: Uatlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: a7fe1d24fa689433699b34e28dc173eb, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .622070312
+    width: .729492188
+    height: .333984375
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .666992188
+    height: .62109375
+  textureGUIDs:
+  - 584714d34410e4ffb80e14bbbab40334
+  - bd2930cde7bee4b7b88e606df3c59088
+  textureSizes:
+  - {x: 747, y: 342}
+  - {x: 683, y: 636}
+  defaultPivotOffsets:
+  - {x: -.0107142851, y: .105310142}
+  - {x: -.0267857164, y: .178344011}
+  textureNames:
+  - ame
+  - kasa
+  texturePaths:
+  - Assets/Charas/Umbrella/ame.png
+  - Assets/Charas/Umbrella/kasa.png
+  lastBuildID: 20150708203928358
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

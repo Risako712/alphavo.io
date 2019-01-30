@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: K-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6dce264c40904425c9c5ab5082d31c68, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .391601562
+    y: .38671875
+    width: .295898438
+    height: .423828125
+  - serializedVersion: 2
+    x: 0
+    y: .38671875
+    width: .390625
+    height: .361328125
+  - serializedVersion: 2
+    x: .625
+    y: 0
+    width: .212890625
+    height: .139648438
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .624023438
+    height: .385742188
+  textureGUIDs:
+  - 85a3de3074f86490694aca76c3b01532
+  - 2b10b144261844e8497aee5a7056fa83
+  - 0c77dee11cfee4ea2b43bec4e4e37150
+  - a5cccb92d792e49e8a43a970d4120adf
+  textureSizes:
+  - {x: 303, y: 434}
+  - {x: 400, y: 370}
+  - {x: 218, y: 143}
+  - {x: 639, y: 395}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: .00535714254, y: -.480694979}
+  - {x: 0, y: -.367507488}
+  - {x: .112499997, y: .0173327308}
+  textureNames:
+  - kemuri
+  - totte
+  - huta
+  - hontai
+  texturePaths:
+  - Assets/Charas/Kettle/kemuri.png
+  - Assets/Charas/Kettle/totte.png
+  - Assets/Charas/Kettle/huta.png
+  - Assets/Charas/Kettle/hontai.png
+  lastBuildID: 20150711024130157
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: F-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 4ea0abae61aad419f9ccc7aad0a94875, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .7421875
+    width: .217773438
+    height: .0361328125
+  - serializedVersion: 2
+    x: 0
+    y: .5703125
+    width: .321289062
+    height: .170898438
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .499023438
+    height: .569335938
+  textureGUIDs:
+  - 333645c0ebe9c4e95a92b50c9fd50662
+  - 227af88720ccd4724b802a03e8ccfe8d
+  - 91f74219025b04755b801a71c482b53f
+  textureSizes:
+  - {x: 223, y: 37}
+  - {x: 329, y: 175}
+  - {x: 511, y: 583}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: .312214285}
+  - {x: 0, y: 0}
+  textureNames:
+  - kurome
+  - nodo
+  - karada
+  texturePaths:
+  - Assets/Charas/Frog/kurome.png
+  - Assets/Charas/Frog/nodo.png
+  - Assets/Charas/Frog/karada.png
+  lastBuildID: 20150710000320775
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

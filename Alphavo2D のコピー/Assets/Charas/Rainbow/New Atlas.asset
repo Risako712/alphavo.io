@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: New Atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 19ca41a3af5604b4abcb2c3e4448fd21, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .516113281
+    width: .317382812
+    height: .078125
+  - serializedVersion: 2
+    x: 0
+    y: .311523438
+    width: .836914062
+    height: .135742188
+  - serializedVersion: 2
+    x: 0
+    y: .447753906
+    width: .44140625
+    height: .0678710938
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .956054688
+    height: .311035156
+  - serializedVersion: 2
+    x: .318359375
+    y: .516113281
+    width: .330078125
+    height: .07421875
+  textureGUIDs:
+  - 015389136c735475c8dc3eaf3f927576
+  - 03942371c136440528e094719cd18e21
+  - 5edda10398cd346119496d8837007afb
+  - b967a2ea661934fbd82a5bebb4c90a79
+  - bd09daa5bb53044dc9f63ada642d47db
+  textureSizes:
+  - {x: 325, y: 160}
+  - {x: 857, y: 278}
+  - {x: 452, y: 139}
+  - {x: 979, y: 637}
+  - {x: 338, y: 152}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - kumo_migi
+  - niji
+  - kumo_sita
+  - sora
+  - kumo_hidari
+  texturePaths:
+  - Assets/Charas/Rainbow/kumo_migi.png
+  - Assets/Charas/Rainbow/niji.png
+  - Assets/Charas/Rainbow/kumo_sita.png
+  - Assets/Charas/Rainbow/sora.png
+  - Assets/Charas/Rainbow/kumo_hidari.png
+  lastBuildID: 20150705200141762
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

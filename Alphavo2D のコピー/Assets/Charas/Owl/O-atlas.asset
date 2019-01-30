@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: O-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 081e6f7df5caa4df6a887ed9546d15af, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .831054688
+    width: .0546875
+    height: .0625
+  - serializedVersion: 2
+    x: .394042969
+    y: 0
+    width: .400390625
+    height: .619140625
+  - serializedVersion: 2
+    x: .0576171875
+    y: .658203125
+    width: .0815429688
+    height: .033203125
+  - serializedVersion: 2
+    x: 0
+    y: .89453125
+    width: .0454101562
+    height: .05859375
+  - serializedVersion: 2
+    x: 0
+    y: .954101562
+    width: .044921875
+    height: .044921875
+  - serializedVersion: 2
+    x: 0
+    y: .767578125
+    width: .056640625
+    height: .0625
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .393554688
+    height: .657226562
+  - serializedVersion: 2
+    x: 0
+    y: .658203125
+    width: .0571289062
+    height: .108398438
+  textureGUIDs:
+  - 4bd20f8347e334483b429bb9459ec8e7
+  - d7fb2d170ba2b466e9c900a583af53c2
+  - 163ec337a106c4861b9b0d14803149e3
+  - dc96e89771d7246278f375a3bc70faab
+  - 5149867977fdc4686b1c38ac860ad20a
+  - e38f95fae7528495d8873884056e4bfc
+  - e79240d67d3b84df5903f85f770e9975
+  - ccacab1fd8f8b462b971da7ddda746e8
+  textureSizes:
+  - {x: 112, y: 64}
+  - {x: 820, y: 634}
+  - {x: 167, y: 34}
+  - {x: 93, y: 60}
+  - {x: 92, y: 46}
+  - {x: 116, y: 64}
+  - {x: 806, y: 673}
+  - {x: 117, y: 111}
+  defaultPivotOffsets:
+  - {x: -.112500004, y: .0843750015}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: .117857143, y: -.199285701}
+  - {x: -.123214282, y: -.267857134}
+  - {x: .187500015, y: .019419644}
+  - {x: 0, y: 0}
+  - {x: .246428564, y: .0112934364}
+  textureNames:
+  - mayumigi
+  - karada
+  - kurome
+  - hiradimimi
+  - migimimi
+  - mayuhidari
+  - back
+  - tuki
+  texturePaths:
+  - Assets/Charas/Owl/mayumigi.png
+  - Assets/Charas/Owl/karada.png
+  - Assets/Charas/Owl/kurome.png
+  - Assets/Charas/Owl/hiradimimi.png
+  - Assets/Charas/Owl/migimimi.png
+  - Assets/Charas/Owl/mayuhidari.png
+  - Assets/Charas/Owl/back.png
+  - Assets/Charas/Owl/tuki.png
+  lastBuildID: 20150711223640635
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: B_atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 871b7a66431e34c7b87d955c3df8aa1d, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .71484375
+    y: .237304688
+    width: .177734375
+    height: .184570312
+  - serializedVersion: 2
+    x: 0
+    y: .5703125
+    width: .189453125
+    height: .134765625
+  - serializedVersion: 2
+    x: .701171875
+    y: .189453125
+    width: .21875
+    height: .0419921875
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .48046875
+    height: .236328125
+  - serializedVersion: 2
+    x: .482421875
+    y: .2109375
+    width: .119140625
+    height: .0234375
+  - serializedVersion: 2
+    x: .701171875
+    y: .14453125
+    width: .25
+    height: .0439453125
+  - serializedVersion: 2
+    x: .482421875
+    y: .14453125
+    width: .216796875
+    height: .0654296875
+  - serializedVersion: 2
+    x: 0
+    y: .4765625
+    width: .27734375
+    height: .0927734375
+  - serializedVersion: 2
+    x: 0
+    y: .237304688
+    width: .447265625
+    height: .23828125
+  - serializedVersion: 2
+    x: .44921875
+    y: .237304688
+    width: .263671875
+    height: .186523438
+  - serializedVersion: 2
+    x: .482421875
+    y: 0
+    width: .484375
+    height: .143554688
+  textureGUIDs:
+  - d25ef9ea4f7fb4558bf9a9dca140cb2c
+  - b7aff36f491e941a8a181c1b17a9c848
+  - f808abd3f3a81483cb2d212d2f3782a7
+  - 1053112655a1a489e80e6055436dbabc
+  - 4126a866997ed4ecfb3529d79e48ee09
+  - fab35a67f86084677abb7f0e02bd70ac
+  - ba14923cdf46247bf9960be1f16f6867
+  - 6796deece20704025a14e25c37408788
+  - 0c4c4e3d886e14391af2838815c01e22
+  - 61bbd285503514e8eb1e0fee8b1e3edc
+  - bad1bd3993e3b4569bdab6a200b62c8d
+  textureSizes:
+  - {x: 91, y: 189}
+  - {x: 97, y: 138}
+  - {x: 112, y: 43}
+  - {x: 246, y: 242}
+  - {x: 61, y: 24}
+  - {x: 128, y: 45}
+  - {x: 111, y: 67}
+  - {x: 142, y: 95}
+  - {x: 229, y: 244}
+  - {x: 135, y: 191}
+  - {x: 248, y: 147}
+  defaultPivotOffsets:
+  - {x: -.372851878, y: .442819148}
+  - {x: -.397291064, y: .438829809}
+  - {x: -.385714293, y: .348837227}
+  - {x: .23035714, y: .337632805}
+  - {x: 0, y: 0}
+  - {x: -.391071409, y: -.365714282}
+  - {x: -.428571463, y: .337260127}
+  - {x: -.444642842, y: -.392368406}
+  - {x: -.273214281, y: -.422336072}
+  - {x: .203191489, y: -.359042555}
+  - {x: .401785702, y: -.298250735}
+  textureNames:
+  - asi_mae
+  - asi_usiro
+  - te_usiro
+  - osiri
+  - kurome
+  - syokkaku_usiro
+  - te_mae
+  - syokkaku_mae
+  - kao
+  - hane_usiro
+  - hane_mae
+  texturePaths:
+  - Assets/Charas/Bee/asi_mae.png
+  - Assets/Charas/Bee/asi_usiro.png
+  - Assets/Charas/Bee/te_usiro.png
+  - Assets/Charas/Bee/osiri.png
+  - Assets/Charas/Bee/kurome.png
+  - Assets/Charas/Bee/syokkaku_usiro.png
+  - Assets/Charas/Bee/te_mae.png
+  - Assets/Charas/Bee/syokkaku_mae.png
+  - Assets/Charas/Bee/kao.png
+  - Assets/Charas/Bee/hane_usiro.png
+  - Assets/Charas/Bee/hane_mae.png
+  lastBuildID: 20150709025322525
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

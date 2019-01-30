@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: Catlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d7d351b4cf1e24b59b84f9ff5738177f, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .392578125
+    y: 0
+    width: .240234375
+    height: .51953125
+  - serializedVersion: 2
+    x: .633789062
+    y: .484375
+    width: .291015625
+    height: .33984375
+  - serializedVersion: 2
+    x: .633789062
+    y: 0
+    width: .254882812
+    height: .482421875
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .1953125
+    height: .861328125
+  - serializedVersion: 2
+    x: .196289062
+    y: 0
+    width: .1953125
+    height: .732421875
+  textureGUIDs:
+  - f3aae5e0f98014a85b48de30cd32d17a
+  - 4dc25bb1fecce4ab3b3dcca5797141db
+  - 2772129469f5d49bf97226fd6e5dffe5
+  - 3d5f1afcfcb064bbfa70a61e4dd86050
+  - 8c2a4a284801e4ae58dcce16cf7c3606
+  textureSizes:
+  - {x: 246, y: 266}
+  - {x: 298, y: 174}
+  - {x: 261, y: 247}
+  - {x: 200, y: 441}
+  - {x: 200, y: 375}
+  defaultPivotOffsets:
+  - {x: -.0696428567, y: .2477175}
+  - {x: .369642854, y: .192672417}
+  - {x: .0428571403, y: .300021678}
+  - {x: .360658228, y: .371010631}
+  - {x: -.374002665, y: .430851042}
+  textureNames:
+  - mimigi
+  - happa
+  - mihidari
+  - kukihidari
+  - kukimigi
+  texturePaths:
+  - Assets/Charas/Cherry/mimigi.png
+  - Assets/Charas/Cherry/happa.png
+  - Assets/Charas/Cherry/mihidari.png
+  - Assets/Charas/Cherry/kukihidari.png
+  - Assets/Charas/Cherry/kukimigi.png
+  lastBuildID: 20150708181818564
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

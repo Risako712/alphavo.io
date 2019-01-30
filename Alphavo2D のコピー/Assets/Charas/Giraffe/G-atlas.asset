@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: G-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d1ae45e17adae41fd91fc06edcb5db75, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .567382812
+    y: .349609375
+    width: .137695312
+    height: .359375
+  - serializedVersion: 2
+    x: 0
+    y: .869140625
+    width: .0419921875
+    height: .05859375
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .360351562
+    height: .8671875
+  - serializedVersion: 2
+    x: .567382812
+    y: 0
+    width: .1953125
+    height: .34765625
+  - serializedVersion: 2
+    x: .361328125
+    y: 0
+    width: .205078125
+    height: .94140625
+  textureGUIDs:
+  - 58f49363194e64be69b67dfb1fc31843
+  - 5326bf78aed124853a5d22dcd4cf41dd
+  - c34da6e84042d4cb1a7e1004a15d3596
+  - cf7791ab454394a808096b32d7ce8ea3
+  - 58a6eecb4c6434749967047d246610bb
+  textureSizes:
+  - {x: 141, y: 184}
+  - {x: 43, y: 30}
+  - {x: 369, y: 444}
+  - {x: 200, y: 178}
+  - {x: 210, y: 482}
+  defaultPivotOffsets:
+  - {x: .401785702, y: .394099385}
+  - {x: 0, y: 0}
+  - {x: .021428572, y: .124662168}
+  - {x: -.305357128, y: -.306982338}
+  - {x: -.256382972, y: -.386968046}
+  textureNames:
+  - sippo
+  - kurome
+  - karada
+  - kao
+  - kubi
+  texturePaths:
+  - Assets/Charas/Giraffe/sippo.png
+  - Assets/Charas/Giraffe/kurome.png
+  - Assets/Charas/Giraffe/karada.png
+  - Assets/Charas/Giraffe/kao.png
+  - Assets/Charas/Giraffe/kubi.png
+  lastBuildID: 201507100133251007
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

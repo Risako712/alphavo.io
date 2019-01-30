@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: New Atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: bffb4ef90c2c4414fb86f36ad5648920, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .880859375
+    width: .1328125
+    height: .091796875
+  - serializedVersion: 2
+    x: .133789062
+    y: .880859375
+    width: .1328125
+    height: .091796875
+  - serializedVersion: 2
+    x: .3515625
+    y: 0
+    width: .2890625
+    height: .654296875
+  - serializedVersion: 2
+    x: .3515625
+    y: .65625
+    width: .1328125
+    height: .091796875
+  - serializedVersion: 2
+    x: .641601562
+    y: 0
+    width: .296875
+    height: .5234375
+  - serializedVersion: 2
+    x: .485351562
+    y: .65625
+    width: .01953125
+    height: .279296875
+  - serializedVersion: 2
+    x: .3515625
+    y: .75
+    width: .033203125
+    height: .16796875
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .350585938
+    height: .87890625
+  textureGUIDs:
+  - 05dbfe9eca46f4bdeb45a1f08a34305b
+  - 077ce7b1640284e8ba771ea3dcf4defe
+  - 154872c9bab2e4a4baec00c233b9f95e
+  - 2ed1c93ba65404562836bee1e586693e
+  - 3448430f7564f4f24968b180feda66a3
+  - 4096d2748e55744cc8b21c230c3c153b
+  - b2b8456e9978745fa92f423644ba66b2
+  - d65aedc8b22b340d18bb94d16f480d6d
+  textureSizes:
+  - {x: 136, y: 47}
+  - {x: 136, y: 47}
+  - {x: 296, y: 335}
+  - {x: 136, y: 47}
+  - {x: 304, y: 268}
+  - {x: 20, y: 143}
+  - {x: 34, y: 86}
+  - {x: 359, y: 450}
+  defaultPivotOffsets:
+  - {x: -.00535714254, y: -.108510636}
+  - {x: .00535714254, y: -.0465045609}
+  - {x: 0, y: 0}
+  - {x: .00547685893, y: -.174327254}
+  - {x: -.0082336152, y: -.0513679273}
+  - {x: .0797397792, y: .00557620823}
+  - {x: .00705226324, y: -.131040886}
+  - {x: -.0857142881, y: .0384642892}
+  textureNames:
+  - ice_tare4
+  - ice_tare3
+  - ice_1dan
+  - ice_tare5
+  - ice_2dan
+  - ice_tare1
+  - ice_tare2
+  - Ice_corn
+  texturePaths:
+  - Assets/Charas/Icecream/ice_tare4.png
+  - Assets/Charas/Icecream/ice_tare3.png
+  - Assets/Charas/Icecream/ice_1dan.png
+  - Assets/Charas/Icecream/ice_tare5.png
+  - Assets/Charas/Icecream/ice_2dan.png
+  - Assets/Charas/Icecream/ice_tare1.png
+  - Assets/Charas/Icecream/ice_tare2.png
+  - Assets/Charas/Icecream/Ice_corn.png
+  lastBuildID: 20150705170318612
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

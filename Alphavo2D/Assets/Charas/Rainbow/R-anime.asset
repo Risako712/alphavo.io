@@ -1,0 +1,5698 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1545704558, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: R-anime
+  m_EditorClassIdentifier: 
+  buildID: 201507181927387757
+  needsRebuilt: 0
+  boneDataList:
+  - active: 1
+    boneName: Root
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - active: 1
+    boneName: Bone
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - active: 1
+    boneName: Bone 2
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - active: 1
+    boneName: Bone 3
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - active: 1
+    boneName: Bone 4
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - active: 1
+    boneName: Bone 5
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+  dfsBoneNodeList:
+  - parentBoneIndex: -1
+    boneDataIndex: 0
+    depth: 0
+  - parentBoneIndex: 0
+    boneDataIndex: 1
+    depth: 1
+  - parentBoneIndex: 0
+    boneDataIndex: 2
+    depth: 1
+  - parentBoneIndex: 0
+    boneDataIndex: 3
+    depth: 1
+  - parentBoneIndex: 0
+    boneDataIndex: 4
+    depth: 1
+  - parentBoneIndex: 0
+    boneDataIndex: 5
+    depth: 1
+  animationClips:
+  - animationName: Idle
+    bones:
+    - boneDataIndex: 0
+      keyframes:
+      - boneDataIndex: 0
+        frame: 0
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 0
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 0, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 0}
+        useTextureGUID: 1
+        textureGUID: 
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: -1
+      mixTransform: 0
+      visible: 1
+      colorRCurveSerialized:
+        keyframes: []
+      colorGCurveSerialized:
+        keyframes: []
+      colorBCurveSerialized:
+        keyframes: []
+      colorACurveSerialized:
+        keyframes: []
+      colorBlendWeightCurveSerialized:
+        keyframes: []
+    - boneDataIndex: 1
+      keyframes:
+      - boneDataIndex: 1
+        frame: 0
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 0, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: b967a2ea661934fbd82a5bebb4c90a79
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 4
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 3
+      mixTransform: 0
+      visible: 1
+      colorRCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorGCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorACurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBlendWeightCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 0
+          inTangent: 0
+          outTangent: 0
+    - boneDataIndex: 2
+      keyframes:
+      - boneDataIndex: 2
+        frame: 0
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -364.043335, y: -78.9983063, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.19282985, y: 1.19282985, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 4
+      - boneDataIndex: 2
+        frame: 1
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -328.909515, y: -78.9983063, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.19282985, y: 1.19282985, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 4
+      - boneDataIndex: 2
+        frame: 2
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -328.909515, y: -68.1878967, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.19282985, y: 1.19282985, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 4
+      - boneDataIndex: 2
+        frame: 3
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -350.530334, y: -97.9165192, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.19282985, y: 1.19282985, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 4
+      - boneDataIndex: 2
+        frame: 4
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -364.043335, y: -78.9983063, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.19282985, y: 1.19282985, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 4
+      - boneDataIndex: 2
+        frame: 5
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -385.664154, y: -95.2139206, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 0
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.19282985, y: 1.19282985, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 4
+      mixTransform: 0
+      visible: 1
+      colorRCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorGCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorACurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBlendWeightCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 0
+          inTangent: 0
+          outTangent: 0
+    - boneDataIndex: 3
+      keyframes:
+      - boneDataIndex: 3
+        frame: 0
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 352.564758, y: 42.0423965, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: -5.70000076
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.17647803, y: 1.40271211, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 0
+      - boneDataIndex: 3
+        frame: 1
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 384.996002, y: 42.0423965, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: -5.70000076
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.17647803, y: 1.40271211, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 0
+      - boneDataIndex: 3
+        frame: 2
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 363.375183, y: 20.4215775, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: -5.70000076
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.17647803, y: 1.40271211, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 0
+      - boneDataIndex: 3
+        frame: 3
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 363.375183, y: 66.3658142, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: -5.70000076
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.17647803, y: 1.40271211, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 0
+      - boneDataIndex: 3
+        frame: 4
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 352.564758, y: 42.0423965, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: -5.70000076
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.17647803, y: 1.40271211, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 0
+      - boneDataIndex: 3
+        frame: 5
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 325.538727, y: 55.5554085, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: -5.70000076
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1.17647803, y: 1.40271211, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 0
+      mixTransform: 0
+      visible: 1
+      colorRCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorGCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorACurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBlendWeightCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 0
+          inTangent: 0
+          outTangent: 0
+    - boneDataIndex: 4
+      keyframes:
+      - boneDataIndex: 4
+        frame: 0
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -17.1498718, y: -235.326752, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: .300002873
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 5edda10398cd346119496d8837007afb
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 2
+      - boneDataIndex: 4
+        frame: 1
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 23.389164, y: -235.326752, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: .300002873
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 5edda10398cd346119496d8837007afb
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 2
+      - boneDataIndex: 4
+        frame: 2
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -17.1498718, y: -216.408539, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: .300002873
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 5edda10398cd346119496d8837007afb
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 2
+      - boneDataIndex: 4
+        frame: 3
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -38.7706909, y: -254.244965, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: .300002873
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 5edda10398cd346119496d8837007afb
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 2
+      - boneDataIndex: 4
+        frame: 4
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -17.1498718, y: -235.326752, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: .300002873
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 5edda10398cd346119496d8837007afb
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 2
+      - boneDataIndex: 4
+        frame: 5
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: -49.5811005, y: -243.434555, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: .300002873
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 5edda10398cd346119496d8837007afb
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 2
+      mixTransform: 0
+      visible: 1
+      colorRCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorGCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorACurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBlendWeightCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 0
+          inTangent: 0
+          outTangent: 0
+    - boneDataIndex: 5
+      keyframes:
+      - boneDataIndex: 5
+        frame: 0
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 64.5140152, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 1.19999695
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 03942371c136440528e094719cd18e21
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 1
+      - boneDataIndex: 5
+        frame: 1
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 64.5140152, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 1.19999695
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 03942371c136440528e094719cd18e21
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 1
+      - boneDataIndex: 5
+        frame: 2
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 64.5140152, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: -3.90000272
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 03942371c136440528e094719cd18e21
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 1
+      - boneDataIndex: 5
+        frame: 3
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 64.5140152, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 1.19999695
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 03942371c136440528e094719cd18e21
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 1
+      - boneDataIndex: 5
+        frame: 4
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 64.5140152, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 1.19999695
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 03942371c136440528e094719cd18e21
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 1
+      - boneDataIndex: 5
+        frame: 5
+        userTriggerCallback: 0
+        userTriggerTag: 
+        useKeyframeType: 1
+        keyframeType: 1
+        localPosition:
+          val: {x: 0, y: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 0
+          useY: 0
+        localPosition3:
+          val: {x: 0, y: 64.5140152, z: 0}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        localRotation:
+          val: 3.89999652
+          inTangent: 0
+          outTangent: 0
+          tangentMode: 0
+          use: 1
+        localScale3:
+          val: {x: 1, y: 1, z: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          inTangentZ: 0
+          outTangentZ: 0
+          tangentModeZ: 0
+          useX: 1
+          useY: 1
+          useZ: 1
+        imageScale:
+          val: {x: 1, y: 1}
+          inTangentX: 0
+          outTangentX: 0
+          tangentModeX: 0
+          inTangentY: 0
+          outTangentY: 0
+          tangentModeY: 0
+          useX: 1
+          useY: 1
+        color:
+          val: {r: 1, g: 1, b: 1, a: 1}
+          inTangentR: 0
+          outTangentR: 0
+          tangentModeR: 0
+          inTangentG: 0
+          outTangentG: 0
+          tangentModeG: 0
+          inTangentB: 0
+          outTangentB: 0
+          tangentModeB: 0
+          inTangentA: 0
+          outTangentA: 0
+          tangentModeA: 0
+          use: 1
+          blendWeight: 0
+          inTangentBlendWeight: 0
+          outTangentBlendWeight: 0
+          tangentModeBlendWeight: 0
+        useAtlas: 1
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        useTextureGUID: 1
+        textureGUID: 03942371c136440528e094719cd18e21
+        usePivotOffset: 1
+        pivotOffset: {x: 0, y: 0}
+        useDefaultPivot: 1
+        useDepth: 1
+        depth: 0
+        useCollider: 1
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        textureIndex: 1
+      mixTransform: 0
+      visible: 1
+      colorRCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorGCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorACurveSerialized:
+        keyframes:
+        - time: 0
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 1
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 1
+          inTangent: 0
+          outTangent: 0
+      colorBlendWeightCurveSerialized:
+        keyframes:
+        - time: 0
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 1
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 2
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 3
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 4
+          value: 0
+          inTangent: 0
+          outTangent: 0
+        - time: 5
+          value: 0
+          inTangent: 0
+          outTangent: 0
+    fps: .5
+    maxFrame: 5
+    wrapMode: 4
+    mix: 0
+    blendMode: 0
+    layer: 0
+    blendWeight: 1
+    animationNeedsTwoKeyframes: 0
+  boneTransformPaths:
+  - Root
+  - Root/Bone
+  - Root/Bone 2
+  - Root/Bone 3
+  - Root/Bone 4
+  - Root/Bone 5
+  spriteTransformPaths:
+  - Root/Root_Sprite
+  - Root/Bone/Bone_Sprite
+  - Root/Bone 2/Bone 2_Sprite
+  - Root/Bone 3/Bone 3_Sprite
+  - Root/Bone 4/Bone 4_Sprite
+  - Root/Bone 5/Bone 5_Sprite
+  meshColor: {r: 1, g: 1, b: 1, a: 1}
+  importScale: 1
+  dataVersion: 8
+  textureAtlasDictionary:
+    keys:
+    - New Atlas
+    data:
+    - {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+  materialSource:
+  - {fileID: 2100000, guid: 19ca41a3af5604b4abcb2c3e4448fd21, type: 2}
+  animationClipSourceAssets:
+  - {fileID: 7400000, guid: d6dcb03741c8b4f5d8fb9161b1edc6b5, type: 2}
+  animationClipTriggerFrames:
+  - clipIndex: 0
+    triggerFrames:
+    - clipIndex: 0
+      frame: 0
+      triggerFrameBones:
+      - userTriggerTag: 
+        boneNodeIndex: 0
+        triggerEventTypes: 0100000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: 0, y: 0, z: 0}
+        bottomLeft: {x: 0, y: 0, z: 0}
+        bottomRight: {x: 0, y: 0, z: 0}
+        upperRight: {x: 0, y: 0, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 0}
+        textureGUID: 
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 0}
+        originalTextureGUID: 
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 1
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -489.5, y: 318.5, z: 0}
+        bottomLeft: {x: -489.5, y: -318.5, z: 0}
+        bottomRight: {x: 489.5, y: -318.5, z: 0}
+        upperRight: {x: 489.5, y: 318.5, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: .956054688
+          height: .311035156
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: b967a2ea661934fbd82a5bebb4c90a79
+        materialIndex: 0
+        depth: 4
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: b967a2ea661934fbd82a5bebb4c90a79
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: .956054688
+          height: .311035156
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 2
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -169, y: 76, z: 0}
+        bottomLeft: {x: -169, y: -76, z: 0}
+        bottomRight: {x: 169, y: -76, z: 0}
+        upperRight: {x: 169, y: 76, z: 0}
+        uv:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 3
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -162.5, y: 80, z: 0}
+        bottomLeft: {x: -162.5, y: -80, z: 0}
+        bottomRight: {x: 162.5, y: -80, z: 0}
+        upperRight: {x: 162.5, y: 80, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 4
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -226, y: 69.5, z: 0}
+        bottomLeft: {x: -226, y: -69.5, z: 0}
+        bottomRight: {x: 226, y: -69.5, z: 0}
+        upperRight: {x: 226, y: 69.5, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 5edda10398cd346119496d8837007afb
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 5edda10398cd346119496d8837007afb
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 5
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -428.5, y: 139, z: 0}
+        bottomLeft: {x: -428.5, y: -139, z: 0}
+        bottomRight: {x: 428.5, y: -139, z: 0}
+        upperRight: {x: 428.5, y: 139, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 03942371c136440528e094719cd18e21
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 03942371c136440528e094719cd18e21
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        originalPivotOffset: {x: 0, y: 0}
+    - clipIndex: 0
+      frame: 1
+      triggerFrameBones:
+      - userTriggerTag: 
+        boneNodeIndex: 2
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -169, y: 76, z: 0}
+        bottomLeft: {x: -169, y: -76, z: 0}
+        bottomRight: {x: 169, y: -76, z: 0}
+        upperRight: {x: 169, y: 76, z: 0}
+        uv:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 3
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -162.5, y: 80, z: 0}
+        bottomLeft: {x: -162.5, y: -80, z: 0}
+        bottomRight: {x: 162.5, y: -80, z: 0}
+        upperRight: {x: 162.5, y: 80, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 4
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -226, y: 69.5, z: 0}
+        bottomLeft: {x: -226, y: -69.5, z: 0}
+        bottomRight: {x: 226, y: -69.5, z: 0}
+        upperRight: {x: 226, y: 69.5, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 5edda10398cd346119496d8837007afb
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 5edda10398cd346119496d8837007afb
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 5
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -428.5, y: 139, z: 0}
+        bottomLeft: {x: -428.5, y: -139, z: 0}
+        bottomRight: {x: 428.5, y: -139, z: 0}
+        upperRight: {x: 428.5, y: 139, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 03942371c136440528e094719cd18e21
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 03942371c136440528e094719cd18e21
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        originalPivotOffset: {x: 0, y: 0}
+    - clipIndex: 0
+      frame: 2
+      triggerFrameBones:
+      - userTriggerTag: 
+        boneNodeIndex: 2
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -169, y: 76, z: 0}
+        bottomLeft: {x: -169, y: -76, z: 0}
+        bottomRight: {x: 169, y: -76, z: 0}
+        upperRight: {x: 169, y: 76, z: 0}
+        uv:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 3
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -162.5, y: 80, z: 0}
+        bottomLeft: {x: -162.5, y: -80, z: 0}
+        bottomRight: {x: 162.5, y: -80, z: 0}
+        upperRight: {x: 162.5, y: 80, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 4
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -226, y: 69.5, z: 0}
+        bottomLeft: {x: -226, y: -69.5, z: 0}
+        bottomRight: {x: 226, y: -69.5, z: 0}
+        upperRight: {x: 226, y: 69.5, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 5edda10398cd346119496d8837007afb
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 5edda10398cd346119496d8837007afb
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 5
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -428.5, y: 139, z: 0}
+        bottomLeft: {x: -428.5, y: -139, z: 0}
+        bottomRight: {x: 428.5, y: -139, z: 0}
+        upperRight: {x: 428.5, y: 139, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 03942371c136440528e094719cd18e21
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 03942371c136440528e094719cd18e21
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        originalPivotOffset: {x: 0, y: 0}
+    - clipIndex: 0
+      frame: 3
+      triggerFrameBones:
+      - userTriggerTag: 
+        boneNodeIndex: 2
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -169, y: 76, z: 0}
+        bottomLeft: {x: -169, y: -76, z: 0}
+        bottomRight: {x: 169, y: -76, z: 0}
+        upperRight: {x: 169, y: 76, z: 0}
+        uv:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 3
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -162.5, y: 80, z: 0}
+        bottomLeft: {x: -162.5, y: -80, z: 0}
+        bottomRight: {x: 162.5, y: -80, z: 0}
+        upperRight: {x: 162.5, y: 80, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 4
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -226, y: 69.5, z: 0}
+        bottomLeft: {x: -226, y: -69.5, z: 0}
+        bottomRight: {x: 226, y: -69.5, z: 0}
+        upperRight: {x: 226, y: 69.5, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 5edda10398cd346119496d8837007afb
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 5edda10398cd346119496d8837007afb
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 5
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -428.5, y: 139, z: 0}
+        bottomLeft: {x: -428.5, y: -139, z: 0}
+        bottomRight: {x: 428.5, y: -139, z: 0}
+        upperRight: {x: 428.5, y: 139, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 03942371c136440528e094719cd18e21
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 03942371c136440528e094719cd18e21
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        originalPivotOffset: {x: 0, y: 0}
+    - clipIndex: 0
+      frame: 4
+      triggerFrameBones:
+      - userTriggerTag: 
+        boneNodeIndex: 2
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -169, y: 76, z: 0}
+        bottomLeft: {x: -169, y: -76, z: 0}
+        bottomRight: {x: 169, y: -76, z: 0}
+        upperRight: {x: 169, y: 76, z: 0}
+        uv:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 3
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -162.5, y: 80, z: 0}
+        bottomLeft: {x: -162.5, y: -80, z: 0}
+        bottomRight: {x: 162.5, y: -80, z: 0}
+        upperRight: {x: 162.5, y: 80, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 4
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -226, y: 69.5, z: 0}
+        bottomLeft: {x: -226, y: -69.5, z: 0}
+        bottomRight: {x: 226, y: -69.5, z: 0}
+        upperRight: {x: 226, y: 69.5, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 5edda10398cd346119496d8837007afb
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 5edda10398cd346119496d8837007afb
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 5
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -428.5, y: 139, z: 0}
+        bottomLeft: {x: -428.5, y: -139, z: 0}
+        bottomRight: {x: 428.5, y: -139, z: 0}
+        upperRight: {x: 428.5, y: 139, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 03942371c136440528e094719cd18e21
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 03942371c136440528e094719cd18e21
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        originalPivotOffset: {x: 0, y: 0}
+    - clipIndex: 0
+      frame: 5
+      triggerFrameBones:
+      - userTriggerTag: 
+        boneNodeIndex: 2
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -169, y: 76, z: 0}
+        bottomLeft: {x: -169, y: -76, z: 0}
+        bottomRight: {x: 169, y: -76, z: 0}
+        upperRight: {x: 169, y: 76, z: 0}
+        uv:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: bd09daa5bb53044dc9f63ada642d47db
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: .318359375
+          y: .516113281
+          width: .330078125
+          height: .07421875
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 3
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -162.5, y: 80, z: 0}
+        bottomLeft: {x: -162.5, y: -80, z: 0}
+        bottomRight: {x: 162.5, y: -80, z: 0}
+        upperRight: {x: 162.5, y: 80, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 015389136c735475c8dc3eaf3f927576
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .516113281
+          width: .317382812
+          height: .078125
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 4
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -226, y: 69.5, z: 0}
+        bottomLeft: {x: -226, y: -69.5, z: 0}
+        bottomRight: {x: 226, y: -69.5, z: 0}
+        upperRight: {x: 226, y: 69.5, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 5edda10398cd346119496d8837007afb
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 5edda10398cd346119496d8837007afb
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .447753906
+          width: .44140625
+          height: .0678710938
+        originalPivotOffset: {x: 0, y: 0}
+      - userTriggerTag: 
+        boneNodeIndex: 5
+        triggerEventTypes: 02000000040000000300000006000000
+        pivotOffset: {x: 0, y: 0}
+        upperLeft: {x: -428.5, y: 139, z: 0}
+        bottomLeft: {x: -428.5, y: -139, z: 0}
+        bottomRight: {x: 428.5, y: -139, z: 0}
+        upperRight: {x: 428.5, y: 139, z: 0}
+        uv:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: 0
+        localScale: {x: 0, y: 0}
+        atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+        textureGUID: 03942371c136440528e094719cd18e21
+        materialIndex: 0
+        depth: 0
+        collider:
+          type: 0
+          center: {x: 0, y: 0, z: 0}
+          boxSize: {x: 0, y: 0, z: 0}
+          sphereRadius: 0
+          useAnimationLayer: 1
+          layer: 0
+          isTrigger: 1
+          tag: 
+        originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74,
+          type: 2}
+        originalTextureGUID: 03942371c136440528e094719cd18e21
+        originalMaterialIndex: 0
+        originalUV:
+          serializedVersion: 2
+          x: 0
+          y: .311523438
+          width: .836914062
+          height: .135742188
+        originalPivotOffset: {x: 0, y: 0}
+  triggerFrames:
+  - clipIndex: 0
+    frame: 0
+    triggerFrameBones:
+    - userTriggerTag: 
+      boneNodeIndex: 0
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID: 
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 0}
+      originalTextureGUID: 
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 1
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -489.5, y: 318.5, z: 0}
+      bottomLeft: {x: -489.5, y: -318.5, z: 0}
+      bottomRight: {x: 489.5, y: -318.5, z: 0}
+      upperRight: {x: 489.5, y: 318.5, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: .956054688
+        height: .311035156
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: b967a2ea661934fbd82a5bebb4c90a79
+      materialIndex: 0
+      depth: 4
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: b967a2ea661934fbd82a5bebb4c90a79
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: .956054688
+        height: .311035156
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -169, y: 76, z: 0}
+      bottomLeft: {x: -169, y: -76, z: 0}
+      bottomRight: {x: 169, y: -76, z: 0}
+      upperRight: {x: 169, y: 76, z: 0}
+      uv:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: bd09daa5bb53044dc9f63ada642d47db
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -162.5, y: 80, z: 0}
+      bottomLeft: {x: -162.5, y: -80, z: 0}
+      bottomRight: {x: 162.5, y: -80, z: 0}
+      upperRight: {x: 162.5, y: 80, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 015389136c735475c8dc3eaf3f927576
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -226, y: 69.5, z: 0}
+      bottomLeft: {x: -226, y: -69.5, z: 0}
+      bottomRight: {x: 226, y: -69.5, z: 0}
+      upperRight: {x: 226, y: 69.5, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 5edda10398cd346119496d8837007afb
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 5edda10398cd346119496d8837007afb
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -428.5, y: 139, z: 0}
+      bottomLeft: {x: -428.5, y: -139, z: 0}
+      bottomRight: {x: 428.5, y: -139, z: 0}
+      upperRight: {x: 428.5, y: 139, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 03942371c136440528e094719cd18e21
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 03942371c136440528e094719cd18e21
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 0
+    frame: 1
+    triggerFrameBones:
+    - userTriggerTag: 
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -169, y: 76, z: 0}
+      bottomLeft: {x: -169, y: -76, z: 0}
+      bottomRight: {x: 169, y: -76, z: 0}
+      upperRight: {x: 169, y: 76, z: 0}
+      uv:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: bd09daa5bb53044dc9f63ada642d47db
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -162.5, y: 80, z: 0}
+      bottomLeft: {x: -162.5, y: -80, z: 0}
+      bottomRight: {x: 162.5, y: -80, z: 0}
+      upperRight: {x: 162.5, y: 80, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 015389136c735475c8dc3eaf3f927576
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -226, y: 69.5, z: 0}
+      bottomLeft: {x: -226, y: -69.5, z: 0}
+      bottomRight: {x: 226, y: -69.5, z: 0}
+      upperRight: {x: 226, y: 69.5, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 5edda10398cd346119496d8837007afb
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 5edda10398cd346119496d8837007afb
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -428.5, y: 139, z: 0}
+      bottomLeft: {x: -428.5, y: -139, z: 0}
+      bottomRight: {x: 428.5, y: -139, z: 0}
+      upperRight: {x: 428.5, y: 139, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 03942371c136440528e094719cd18e21
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 03942371c136440528e094719cd18e21
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 0
+    frame: 2
+    triggerFrameBones:
+    - userTriggerTag: 
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -169, y: 76, z: 0}
+      bottomLeft: {x: -169, y: -76, z: 0}
+      bottomRight: {x: 169, y: -76, z: 0}
+      upperRight: {x: 169, y: 76, z: 0}
+      uv:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: bd09daa5bb53044dc9f63ada642d47db
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -162.5, y: 80, z: 0}
+      bottomLeft: {x: -162.5, y: -80, z: 0}
+      bottomRight: {x: 162.5, y: -80, z: 0}
+      upperRight: {x: 162.5, y: 80, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 015389136c735475c8dc3eaf3f927576
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -226, y: 69.5, z: 0}
+      bottomLeft: {x: -226, y: -69.5, z: 0}
+      bottomRight: {x: 226, y: -69.5, z: 0}
+      upperRight: {x: 226, y: 69.5, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 5edda10398cd346119496d8837007afb
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 5edda10398cd346119496d8837007afb
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -428.5, y: 139, z: 0}
+      bottomLeft: {x: -428.5, y: -139, z: 0}
+      bottomRight: {x: 428.5, y: -139, z: 0}
+      upperRight: {x: 428.5, y: 139, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 03942371c136440528e094719cd18e21
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 03942371c136440528e094719cd18e21
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 0
+    frame: 3
+    triggerFrameBones:
+    - userTriggerTag: 
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -169, y: 76, z: 0}
+      bottomLeft: {x: -169, y: -76, z: 0}
+      bottomRight: {x: 169, y: -76, z: 0}
+      upperRight: {x: 169, y: 76, z: 0}
+      uv:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: bd09daa5bb53044dc9f63ada642d47db
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -162.5, y: 80, z: 0}
+      bottomLeft: {x: -162.5, y: -80, z: 0}
+      bottomRight: {x: 162.5, y: -80, z: 0}
+      upperRight: {x: 162.5, y: 80, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 015389136c735475c8dc3eaf3f927576
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -226, y: 69.5, z: 0}
+      bottomLeft: {x: -226, y: -69.5, z: 0}
+      bottomRight: {x: 226, y: -69.5, z: 0}
+      upperRight: {x: 226, y: 69.5, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 5edda10398cd346119496d8837007afb
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 5edda10398cd346119496d8837007afb
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -428.5, y: 139, z: 0}
+      bottomLeft: {x: -428.5, y: -139, z: 0}
+      bottomRight: {x: 428.5, y: -139, z: 0}
+      upperRight: {x: 428.5, y: 139, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 03942371c136440528e094719cd18e21
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 03942371c136440528e094719cd18e21
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 0
+    frame: 4
+    triggerFrameBones:
+    - userTriggerTag: 
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -169, y: 76, z: 0}
+      bottomLeft: {x: -169, y: -76, z: 0}
+      bottomRight: {x: 169, y: -76, z: 0}
+      upperRight: {x: 169, y: 76, z: 0}
+      uv:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: bd09daa5bb53044dc9f63ada642d47db
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -162.5, y: 80, z: 0}
+      bottomLeft: {x: -162.5, y: -80, z: 0}
+      bottomRight: {x: 162.5, y: -80, z: 0}
+      upperRight: {x: 162.5, y: 80, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 015389136c735475c8dc3eaf3f927576
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -226, y: 69.5, z: 0}
+      bottomLeft: {x: -226, y: -69.5, z: 0}
+      bottomRight: {x: 226, y: -69.5, z: 0}
+      upperRight: {x: 226, y: 69.5, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 5edda10398cd346119496d8837007afb
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 5edda10398cd346119496d8837007afb
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -428.5, y: 139, z: 0}
+      bottomLeft: {x: -428.5, y: -139, z: 0}
+      bottomRight: {x: 428.5, y: -139, z: 0}
+      upperRight: {x: 428.5, y: 139, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 03942371c136440528e094719cd18e21
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 03942371c136440528e094719cd18e21
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 0
+    frame: 5
+    triggerFrameBones:
+    - userTriggerTag: 
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -169, y: 76, z: 0}
+      bottomLeft: {x: -169, y: -76, z: 0}
+      bottomRight: {x: 169, y: -76, z: 0}
+      upperRight: {x: 169, y: 76, z: 0}
+      uv:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: bd09daa5bb53044dc9f63ada642d47db
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: bd09daa5bb53044dc9f63ada642d47db
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: .318359375
+        y: .516113281
+        width: .330078125
+        height: .07421875
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -162.5, y: 80, z: 0}
+      bottomLeft: {x: -162.5, y: -80, z: 0}
+      bottomRight: {x: 162.5, y: -80, z: 0}
+      upperRight: {x: 162.5, y: 80, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 015389136c735475c8dc3eaf3f927576
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 015389136c735475c8dc3eaf3f927576
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .516113281
+        width: .317382812
+        height: .078125
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -226, y: 69.5, z: 0}
+      bottomLeft: {x: -226, y: -69.5, z: 0}
+      bottomRight: {x: 226, y: -69.5, z: 0}
+      upperRight: {x: 226, y: 69.5, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 5edda10398cd346119496d8837007afb
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 5edda10398cd346119496d8837007afb
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .447753906
+        width: .44140625
+        height: .0678710938
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag: 
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: -428.5, y: 139, z: 0}
+      bottomLeft: {x: -428.5, y: -139, z: 0}
+      bottomRight: {x: 428.5, y: -139, z: 0}
+      upperRight: {x: 428.5, y: 139, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      textureGUID: 03942371c136440528e094719cd18e21
+      materialIndex: 0
+      depth: 0
+      collider:
+        type: 0
+        center: {x: 0, y: 0, z: 0}
+        boxSize: {x: 0, y: 0, z: 0}
+        sphereRadius: 0
+        useAnimationLayer: 1
+        layer: 0
+        isTrigger: 1
+        tag: 
+      originalAtlas: {fileID: 11400000, guid: 056ad8fa6a7864b54b53f9d442ba6d74, type: 2}
+      originalTextureGUID: 03942371c136440528e094719cd18e21
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: .311523438
+        width: .836914062
+        height: .135742188
+      originalPivotOffset: {x: 0, y: 0}
+  vertices:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: -489.5, y: 318.5, z: 0}
+  - {x: -489.5, y: -318.5, z: 0}
+  - {x: 489.5, y: -318.5, z: 0}
+  - {x: 489.5, y: 318.5, z: 0}
+  - {x: -169, y: 76, z: 0}
+  - {x: -169, y: -76, z: 0}
+  - {x: 169, y: -76, z: 0}
+  - {x: 169, y: 76, z: 0}
+  - {x: -162.5, y: 80, z: 0}
+  - {x: -162.5, y: -80, z: 0}
+  - {x: 162.5, y: -80, z: 0}
+  - {x: 162.5, y: 80, z: 0}
+  - {x: -226, y: 69.5, z: 0}
+  - {x: -226, y: -69.5, z: 0}
+  - {x: 226, y: -69.5, z: 0}
+  - {x: 226, y: 69.5, z: 0}
+  - {x: -428.5, y: 139, z: 0}
+  - {x: -428.5, y: -139, z: 0}
+  - {x: 428.5, y: -139, z: 0}
+  - {x: 428.5, y: 139, z: 0}
+  uvs:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: .311035156}
+  - {x: 0, y: 0}
+  - {x: .956054688, y: 0}
+  - {x: .956054688, y: .311035156}
+  - {x: .318359375, y: .590332031}
+  - {x: .318359375, y: .516113281}
+  - {x: .6484375, y: .516113281}
+  - {x: .6484375, y: .590332031}
+  - {x: 0, y: .594238281}
+  - {x: 0, y: .516113281}
+  - {x: .317382812, y: .516113281}
+  - {x: .317382812, y: .594238281}
+  - {x: 0, y: .515625}
+  - {x: 0, y: .447753906}
+  - {x: .44140625, y: .447753906}
+  - {x: .44140625, y: .515625}
+  - {x: 0, y: .447265625}
+  - {x: 0, y: .311523438}
+  - {x: .836914062, y: .311523438}
+  - {x: .836914062, y: .447265625}
+  colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  normals:
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 0, z: -1}
+  bindPoses:
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1

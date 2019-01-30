@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: H-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 540e12e0c9aef444b9a244352e27c89d, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .173828125
+    y: .41796875
+    width: .298828125
+    height: .4609375
+  - serializedVersion: 2
+    x: .173828125
+    y: 0
+    width: .336914062
+    height: .416015625
+  - serializedVersion: 2
+    x: 0
+    y: .853515625
+    width: .143554688
+    height: .1015625
+  - serializedVersion: 2
+    x: .173828125
+    y: .880859375
+    width: .0439453125
+    height: .087890625
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .172851562
+    height: .8515625
+  - serializedVersion: 2
+    x: .51171875
+    y: 0
+    width: .0771484375
+    height: .423828125
+  - serializedVersion: 2
+    x: .58984375
+    y: 0
+    width: .05078125
+    height: .29296875
+  - serializedVersion: 2
+    x: .641601562
+    y: 0
+    width: .052734375
+    height: .25
+  - serializedVersion: 2
+    x: .51171875
+    y: .42578125
+    width: .0625
+    height: .45703125
+  textureGUIDs:
+  - 134267370a3264c6d89860ac278f8d85
+  - 496e3257ccea04a4fad20cf858ed8140
+  - 7f41719868c7d4a0d8e3751d2a3b1204
+  - 2a695ff9883bc44f1983005a36427da9
+  - 655134fcf15444e24ba194ebba03f459
+  - 93baacf0a3bc64e1db2a7b4e20e11694
+  - 650144c2aacc243eb9745d15341537d6
+  - 8ff1faeb5efd04bb69b729b4fb34c8c2
+  - 03d86fdc81ab248f890b2386b5036cc7
+  textureSizes:
+  - {x: 306, y: 236}
+  - {x: 345, y: 213}
+  - {x: 147, y: 52}
+  - {x: 45, y: 45}
+  - {x: 177, y: 436}
+  - {x: 79, y: 217}
+  - {x: 52, y: 150}
+  - {x: 54, y: 128}
+  - {x: 64, y: 234}
+  defaultPivotOffsets:
+  - {x: -.364285737, y: -.243114427}
+  - {x: -.305357158, y: -.190895393}
+  - {x: .439285696, y: -.242307693}
+  - {x: 0, y: 0}
+  - {x: -.157230422, y: -.386968076}
+  - {x: -.0109581212, y: .37500003}
+  - {x: .0345233195, y: .355053186}
+  - {x: .00945626479, y: .359042555}
+  - {x: 0, y: .31117022}
+  textureNames:
+  - kao
+  - karada
+  - sippo
+  - kurome
+  - kubi
+  - asi4
+  - asi2
+  - asi3
+  - asi1
+  texturePaths:
+  - Assets/Charas/Horse/kao.png
+  - Assets/Charas/Horse/karada.png
+  - Assets/Charas/Horse/sippo.png
+  - Assets/Charas/Horse/kurome.png
+  - Assets/Charas/Horse/kubi.png
+  - Assets/Charas/Horse/asi4.png
+  - Assets/Charas/Horse/asi2.png
+  - Assets/Charas/Horse/asi3.png
+  - Assets/Charas/Horse/asi1.png
+  lastBuildID: 20150710023916328
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

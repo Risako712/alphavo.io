@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 68d5539944f6441ccbedb83d5fd6bc5c
+timeCreated: 1436082976
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 6
+    21300002: 5
+    21300004: 1
+    21300006: 8
+    21300008: 3
+    21300010: 2
+    21300012: 7
+    21300014: 4
+    21300016: Icecream_0
+    21300018: Icecream_1
+    21300020: Icecream_2
+    21300022: Icecream_3
+    21300024: Icecream_4
+    21300026: Icecream_5
+    21300028: Icecream_6
+    21300030: Icecream_7
+    21300032: ice_tare4
+    21300034: ice_2dan
+    21300036: ice_tare3
+    21300038: ice_1dan
+    21300040: ice_tare1
+    21300042: Ice_corn
+    21300044: ice_tare5
+    21300046: ice_tare2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ice_tare4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 136
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice_2dan
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 304
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice_tare3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 451
+        width: 136
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice_1dan
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 296
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice_tare1
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 336
+        width: 20
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ice_corn
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 359
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice_tare5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 336
+        width: 136
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice_tare2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 384
+        width: 34
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: L-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: dd14ff25a21b5476f94eed5328264d4c, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .76953125
+    y: .255859375
+    width: .107421875
+    height: .10546875
+  - serializedVersion: 2
+    x: .76953125
+    y: 0
+    width: .208007812
+    height: .11328125
+  - serializedVersion: 2
+    x: .877929688
+    y: .255859375
+    width: .12109375
+    height: .0322265625
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .768554688
+    height: .586914062
+  - serializedVersion: 2
+    x: .76953125
+    y: .114257812
+    width: .143554688
+    height: .140625
+  - serializedVersion: 2
+    x: .9140625
+    y: .114257812
+    width: .02734375
+    height: .0244140625
+  - serializedVersion: 2
+    x: .942382812
+    y: .114257812
+    width: .0234375
+    height: .0244140625
+  textureGUIDs:
+  - 36015286bdfa041dc8830795acfb6226
+  - b2cbfd27fa4b34db3b9c9d74e1ee25b5
+  - bfefa5ca741514555904544eebf4a8c5
+  - d25a0906ca081438d8b8b9b0b52ba3ef
+  - 7450ad4633f2341c3b66341cc6b2bac3
+  - 5190b269be6d1480aaf5940d3ceb106f
+  - c978c38beb28c4cf493feb62ef28a0f2
+  textureSizes:
+  - {x: 110, y: 108}
+  - {x: 213, y: 116}
+  - {x: 124, y: 33}
+  - {x: 787, y: 601}
+  - {x: 147, y: 144}
+  - {x: 28, y: 25}
+  - {x: 24, y: 25}
+  defaultPivotOffsets:
+  - {x: -.0374999978, y: .360119045}
+  - {x: .010714286, y: .147552341}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: .337499976, y: -.4375}
+  - {x: .283928573, y: -.324000031}
+  - {x: -.300000012, y: -.205714285}
+  textureNames:
+  - kuti
+  - hana
+  - kurome
+  - lion
+  - sippo
+  - mayuhidari
+  - mayumigi
+  texturePaths:
+  - Assets/Charas/Lion/kuti.png
+  - Assets/Charas/Lion/hana.png
+  - Assets/Charas/Lion/kurome.png
+  - Assets/Charas/Lion/lion.png
+  - Assets/Charas/Lion/sippo.png
+  - Assets/Charas/Lion/mayuhidari.png
+  - Assets/Charas/Lion/mayumigi.png
+  lastBuildID: 20150711100540566
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

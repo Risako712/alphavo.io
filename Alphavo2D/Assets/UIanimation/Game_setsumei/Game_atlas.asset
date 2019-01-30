@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: Game_atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 53b20a32f337148b79140eba967b1bd3, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .987304688
+    y: .033203125
+    width: .0087890625
+    height: .0322265625
+  - serializedVersion: 2
+    x: .8359375
+    y: .236328125
+    width: .0869140625
+    height: .0830078125
+  - serializedVersion: 2
+    x: .96484375
+    y: 0
+    width: .02734375
+    height: .0322265625
+  - serializedVersion: 2
+    x: .971679688
+    y: .12890625
+    width: .01953125
+    height: .0322265625
+  - serializedVersion: 2
+    x: .96484375
+    y: .033203125
+    width: .021484375
+    height: .0322265625
+  - serializedVersion: 2
+    x: .96484375
+    y: .06640625
+    width: .021484375
+    height: .0322265625
+  - serializedVersion: 2
+    x: .94921875
+    y: .12890625
+    width: .021484375
+    height: .0322265625
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .834960938
+    height: .619140625
+  - serializedVersion: 2
+    x: .8359375
+    y: .12890625
+    width: .112304688
+    height: .106445312
+  - serializedVersion: 2
+    x: .8359375
+    y: 0
+    width: .127929688
+    height: .127929688
+  - serializedVersion: 2
+    x: .923828125
+    y: .236328125
+    width: .06640625
+    height: .0830078125
+  - serializedVersion: 2
+    x: 0
+    y: .620117188
+    width: .174804688
+    height: .139648438
+  textureGUIDs:
+  - f412af846d54d4f4b841b4223e6d087a
+  - 6984648740afb480db776ef08238d45e
+  - a9dd5679ca7bc4401bbb38a4f59ac7b4
+  - 4183124d0b0d047cda611ccb93145189
+  - d9e1d92e1726a4a82898136d5109411a
+  - ba8c9d3fa5a57459cb38801f7201a644
+  - 647145df2eb524cc8a5edfe4df929644
+  - c92988c0924b142589d75fe31f62588d
+  - 7119c8874ccaf481e905538ee640fdfe
+  - 7de13bf97caed4870ae2cf94dde45ef3
+  - a49e65cd0807e4ccba677067253427c4
+  - d6d4c8ed985c2489ba33812ff68e7b99
+  textureSizes:
+  - {x: 9, y: 33}
+  - {x: 89, y: 85}
+  - {x: 28, y: 33}
+  - {x: 20, y: 33}
+  - {x: 22, y: 33}
+  - {x: 22, y: 33}
+  - {x: 22, y: 33}
+  - {x: 855, y: 634}
+  - {x: 115, y: 109}
+  - {x: 131, y: 131}
+  - {x: 68, y: 85}
+  - {x: 179, y: 143}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - 1
+  - A
+  - 4
+  - 3
+  - 0
+  - 5
+  - 2
+  - UI
+  - QnoA
+  - seikai
+  - S
+  - Sheep
+  texturePaths:
+  - Assets/UIanimation/Game_setsumei/1.png
+  - Assets/UIanimation/Game_setsumei/A.png
+  - Assets/UIanimation/Game_setsumei/4.png
+  - Assets/UIanimation/Game_setsumei/3.png
+  - Assets/UIanimation/Game_setsumei/0.png
+  - Assets/UIanimation/Game_setsumei/5.png
+  - Assets/UIanimation/Game_setsumei/2.png
+  - Assets/UIanimation/Game_setsumei/UI.png
+  - Assets/UIanimation/Game_setsumei/QnoA.png
+  - Assets/UIanimation/Game_setsumei/seikai.png
+  - Assets/UIanimation/Game_setsumei/S.png
+  - Assets/UIanimation/Game_setsumei/Sheep.png
+  lastBuildID: 20150719161322774
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

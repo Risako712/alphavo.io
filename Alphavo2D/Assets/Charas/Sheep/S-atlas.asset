@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: S-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fc4e03be6a91743d9b0a09e69c046401, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .771484375
+    height: .618164062
+  - serializedVersion: 2
+    x: .772460938
+    y: .319335938
+    width: .0947265625
+    height: .0205078125
+  - serializedVersion: 2
+    x: .772460938
+    y: 0
+    width: .146484375
+    height: .158203125
+  - serializedVersion: 2
+    x: .772460938
+    y: .159179688
+    width: .14453125
+    height: .159179688
+  textureGUIDs:
+  - 8deeb5b550c134737ac5be5c58e5b9dc
+  - 3415817e7787c4157ba1614041a8349d
+  - 24f7667a73bc64d7ca59d44a8bafae30
+  - e084e92df1b484e6bac854bca7ea11a7
+  textureSizes:
+  - {x: 790, y: 633}
+  - {x: 97, y: 21}
+  - {x: 150, y: 162}
+  - {x: 148, y: 163}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: -.369642854, y: .238095224}
+  - {x: .358928591, y: .223751098}
+  textureNames:
+  - hituji
+  - kurome
+  - tunomigi
+  - tunohidari
+  texturePaths:
+  - Assets/Charas/Sheep/hituji.png
+  - Assets/Charas/Sheep/kurome.png
+  - Assets/Charas/Sheep/tunomigi.png
+  - Assets/Charas/Sheep/tunohidari.png
+  lastBuildID: 20150712025628615
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

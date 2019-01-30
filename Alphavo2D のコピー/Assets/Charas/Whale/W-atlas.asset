@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: W-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: cace4800d6f364cb69a36aafd8879e3b, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .28515625
+    width: .784179688
+    height: .155273438
+  - serializedVersion: 2
+    x: .959960938
+    y: 0
+    width: .0224609375
+    height: .0244140625
+  - serializedVersion: 2
+    x: .741210938
+    y: 0
+    width: .217773438
+    height: .133789062
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .740234375
+    height: .284179688
+  - serializedVersion: 2
+    x: .741210938
+    y: .134765625
+    width: .147460938
+    height: .08984375
+  textureGUIDs:
+  - adf84f51fb57c4a5082c936c1b652746
+  - 23b0c3d4a5f5d43d8afc05fe3811ade4
+  - 840acdcb99562401fb7e1dd8fec36ee3
+  - 0da9e1bce557e4501aafaab179ff5302
+  - 0ec1eaec2dfc7480f8916fe98458e5c6
+  textureSizes:
+  - {x: 803, y: 159}
+  - {x: 23, y: 25}
+  - {x: 223, y: 137}
+  - {x: 758, y: 291}
+  - {x: 151, y: 92}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: .005357143, y: -.313920766}
+  - {x: 0, y: 0}
+  - {x: .0160714276, y: -.334122688}
+  textureNames:
+  - mizu
+  - kurome
+  - sibukisita
+  - kujira
+  - sibukiue
+  texturePaths:
+  - Assets/Charas/Whale/mizu.png
+  - Assets/Charas/Whale/kurome.png
+  - Assets/Charas/Whale/sibukisita.png
+  - Assets/Charas/Whale/kujira.png
+  - Assets/Charas/Whale/sibukiue.png
+  lastBuildID: 20150714024449642
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

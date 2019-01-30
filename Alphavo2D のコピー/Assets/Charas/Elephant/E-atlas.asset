@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: E-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ac17cd34f7b1b4f9faba61cd93928326, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .509765625
+    height: .428710938
+  - serializedVersion: 2
+    x: 0
+    y: .4296875
+    width: .55078125
+    height: .374023438
+  - serializedVersion: 2
+    x: .811523438
+    y: 0
+    width: .15234375
+    height: .05078125
+  - serializedVersion: 2
+    x: .510742188
+    y: 0
+    width: .146484375
+    height: .370117188
+  - serializedVersion: 2
+    x: .658203125
+    y: 0
+    width: .15234375
+    height: .1328125
+  textureGUIDs:
+  - 668f36700903c4969b8d2213aa93ca15
+  - ae37a432df11640979f53aa13f94aa6e
+  - ea61f162ee9374a7f809302e57ad8293
+  - d9c9e546d021e4cd991e80eb75fb334a
+  - 9d32ccd7384594534958564e9ab819a4
+  textureSizes:
+  - {x: 522, y: 439}
+  - {x: 564, y: 383}
+  - {x: 156, y: 52}
+  - {x: 150, y: 379}
+  - {x: 156, y: 136}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: -.181436151, y: .347074449}
+  - {x: .407142848, y: .405567229}
+  textureNames:
+  - karada
+  - kao
+  - kurome
+  - hana
+  - sippo
+  texturePaths:
+  - Assets/Charas/Elephant/karada.png
+  - Assets/Charas/Elephant/kao.png
+  - Assets/Charas/Elephant/kurome.png
+  - Assets/Charas/Elephant/hana.png
+  - Assets/Charas/Elephant/sippo.png
+  lastBuildID: 20150705220322198
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

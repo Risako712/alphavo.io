@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: T-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 09e2e9edff02c46149bc5efc09fda106, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .685546875
+    y: .56640625
+    width: .1640625
+    height: .2265625
+  - serializedVersion: 2
+    x: 0
+    y: .7890625
+    width: .224609375
+    height: .201171875
+  - serializedVersion: 2
+    x: .685546875
+    y: 0
+    width: .307617188
+    height: .33203125
+  - serializedVersion: 2
+    x: .685546875
+    y: .333984375
+    width: .19921875
+    height: .23046875
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .684570312
+    height: .787109375
+  - serializedVersion: 2
+    x: .225585938
+    y: .7890625
+    width: .0517578125
+    height: .046875
+  textureGUIDs:
+  - 4d3d2952cd9e545ac9039f6794e2bc08
+  - c56dab631d34846dc9530424d946450c
+  - be3a1484d55744786ae34e391293f870
+  - dc183336a16be477994f2c425b973bc2
+  - 8a5e5963e90254cba88c77ffd2f8807a
+  - ebabb43f9be314762a0e5a83bf9c6ce0
+  textureSizes:
+  - {x: 168, y: 116}
+  - {x: 230, y: 103}
+  - {x: 315, y: 170}
+  - {x: 204, y: 118}
+  - {x: 701, y: 403}
+  - {x: 53, y: 24}
+  defaultPivotOffsets:
+  - {x: -.198214278, y: .318103433}
+  - {x: .241071448, y: .107662968}
+  - {x: -.262499988, y: -.218382359}
+  - {x: .0803571418, y: .222276032}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - maeasi
+  - sippo
+  - kao
+  - usiroasi
+  - koura
+  - kurome
+  texturePaths:
+  - Assets/Charas/Turtle/maeasi.png
+  - Assets/Charas/Turtle/sippo.png
+  - Assets/Charas/Turtle/kao.png
+  - Assets/Charas/Turtle/usiroasi.png
+  - Assets/Charas/Turtle/koura.png
+  - Assets/Charas/Turtle/kurome.png
+  lastBuildID: 201507120401011008
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

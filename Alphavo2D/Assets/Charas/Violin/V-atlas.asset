@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: V-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 2e2388f31ad9a46d6b9388c77d797e95, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .579101562
+    y: 0
+    width: .264648438
+    height: .522460938
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .578125
+    height: .794921875
+  textureGUIDs:
+  - 67323d200936d4c8297d2f2c9bc9c653
+  - e43c56dcb62eb44298ec5f6d34e23817
+  textureSizes:
+  - {x: 271, y: 535}
+  - {x: 592, y: 814}
+  defaultPivotOffsets:
+  - {x: -.189016253, y: -.183510646}
+  - {x: -.0219414905, y: -.135638297}
+  textureNames:
+  - yumi
+  - violin
+  texturePaths:
+  - Assets/Charas/Violin/yumi.png
+  - Assets/Charas/Violin/violin.png
+  lastBuildID: 20150714020703591
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

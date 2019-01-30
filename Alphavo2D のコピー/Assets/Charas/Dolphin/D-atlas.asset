@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: D-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 70dd7cfd25f7d475bb7555a61d7110c7, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: .928710938
+    y: 0
+    width: .021484375
+    height: .01171875
+  - serializedVersion: 2
+    x: .744140625
+    y: 0
+    width: .10546875
+    height: .0517578125
+  - serializedVersion: 2
+    x: 0
+    y: .399902344
+    width: .430664062
+    height: .108398438
+  - serializedVersion: 2
+    x: .850585938
+    y: 0
+    width: .0771484375
+    height: .0463867188
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .743164062
+    height: .27734375
+  - serializedVersion: 2
+    x: 0
+    y: .277832031
+    width: .784179688
+    height: .121582031
+  textureGUIDs:
+  - 3c6741034ca5e4a6f8a17ec47810b41f
+  - 808e3b09679f74fc6a1838d2be03383f
+  - 0c85de0a608474f3a977f7d1697217b3
+  - 943b77fbfc4d24270b52fd0d5df6564b
+  - aa0b5e5c70f544d928da52cd74da9600
+  - e0652883313f54206b60779a9b427e3b
+  textureSizes:
+  - {x: 22, y: 24}
+  - {x: 108, y: 106}
+  - {x: 441, y: 222}
+  - {x: 79, y: 95}
+  - {x: 761, y: 568}
+  - {x: 803, y: 249}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: .267857134, y: .365700781}
+  - {x: 0, y: 0}
+  - {x: .112499997, y: .365300745}
+  - {x: .0964285731, y: -.380404323}
+  - {x: 0, y: 0}
+  textureNames:
+  - kurome
+  - hiremae2
+  - mizu
+  - hiremae
+  - karada
+  - mizu2
+  texturePaths:
+  - Assets/Charas/Dolphin/kurome.png
+  - Assets/Charas/Dolphin/hiremae2.png
+  - Assets/Charas/Dolphin/mizu.png
+  - Assets/Charas/Dolphin/hiremae.png
+  - Assets/Charas/Dolphin/karada.png
+  - Assets/Charas/Dolphin/mizu2.png
+  lastBuildID: 20150709225223557
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

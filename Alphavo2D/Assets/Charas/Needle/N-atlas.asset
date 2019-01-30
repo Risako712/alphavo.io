@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: N-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5bd8d37ff81a14b6fb00141aff9f0710, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .149414062
+    width: .122070312
+    height: .599609375
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .510742188
+    height: .1484375
+  - serializedVersion: 2
+    x: .51171875
+    y: 0
+    width: .041015625
+    height: .021484375
+  textureGUIDs:
+  - b03052e9867584c1ea0a625c4b1794e1
+  - db395bfa815ee4de5a850d0463d732e4
+  - 0025556b6f0dc4371a25ed59fde7cedf
+  textureSizes:
+  - {x: 125, y: 614}
+  - {x: 523, y: 152}
+  - {x: 42, y: 22}
+  defaultPivotOffsets:
+  - {x: -.293936163, y: .43882978}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - hari
+  - ito
+  - tityai
+  texturePaths:
+  - Assets/Charas/Needle/hari.png
+  - Assets/Charas/Needle/ito.png
+  - Assets/Charas/Needle/tityai.png
+  lastBuildID: 20150711104624902
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

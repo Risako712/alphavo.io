@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: Q-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 134b50b9ef23b49c49571a62be6017d4, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .78125
+    height: .389648438
+  - serializedVersion: 2
+    x: 0
+    y: .390625
+    width: .326171875
+    height: .147460938
+  textureGUIDs:
+  - 30e7e867146b54d858d83219a1cb11ad
+  - 7ce16aed326b14cf88d27ab0e26afb37
+  textureSizes:
+  - {x: 400, y: 399}
+  - {x: 167, y: 151}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - sita
+  - ue
+  texturePaths:
+  - Assets/Charas/Question mark/sita.png
+  - Assets/Charas/Question mark/ue.png
+  lastBuildID: 20150712013516486
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

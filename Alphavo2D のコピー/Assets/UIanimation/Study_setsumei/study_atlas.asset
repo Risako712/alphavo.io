@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: study_atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fe6af3d1dc05e491eb24ae7849fd4a73, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .833984375
+    width: .484375
+    height: .0810546875
+  - serializedVersion: 2
+    x: 0
+    y: .916015625
+    width: .0385742188
+    height: .0751953125
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .626953125
+    height: .833007812
+  - serializedVersion: 2
+    x: .729980469
+    y: 0
+    width: .123046875
+    height: .2265625
+  - serializedVersion: 2
+    x: .853515625
+    y: 0
+    width: .0854492188
+    height: .279296875
+  - serializedVersion: 2
+    x: .627441406
+    y: 0
+    width: .102050781
+    height: .293945312
+  - serializedVersion: 2
+    x: .484863281
+    y: .833984375
+    width: .0473632812
+    height: .0947265625
+  textureGUIDs:
+  - 6bee2d74035fe4e688fa9bba9fa2592c
+  - 0eac2f94913704ed5b91bed15117de40
+  - 6cb5702c3ab9342ad869c1a670e32de4
+  - 749eb32eba3ea41ee842aee839f85b25
+  - d20c734e158f64f27857bb7ced2ba824
+  - 4f75ccf1459a4483cade01bc99913fb0
+  - 95b81baa50b304c4a84a7d92860a71a7
+  textureSizes:
+  - {x: 992, y: 83}
+  - {x: 79, y: 77}
+  - {x: 1284, y: 853}
+  - {x: 252, y: 232}
+  - {x: 175, y: 286}
+  - {x: 209, y: 301}
+  - {x: 97, y: 97}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - alphabet
+  - oto
+  - kakomi
+  - icemoji
+  - ice
+  - yubi
+  - touch
+  texturePaths:
+  - Assets/UIanimation/Study_setsumei/alphabet.png
+  - Assets/UIanimation/Study_setsumei/oto.png
+  - Assets/UIanimation/Study_setsumei/kakomi.png
+  - Assets/UIanimation/Study_setsumei/icemoji.png
+  - Assets/UIanimation/Study_setsumei/ice.png
+  - Assets/UIanimation/Study_setsumei/yubi.png
+  - Assets/UIanimation/Study_setsumei/touch.png
+  lastBuildID: 20150715020816658
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

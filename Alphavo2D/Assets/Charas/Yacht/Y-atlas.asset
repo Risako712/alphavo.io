@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: Y-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9a019ad98f9944a23b9afeec9bf69d2d, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .254882812
+    width: .739257812
+    height: .126464844
+  - serializedVersion: 2
+    x: .404296875
+    y: 0
+    width: .213867188
+    height: .229003906
+  - serializedVersion: 2
+    x: 0
+    y: .459960938
+    width: .0380859375
+    height: .268066406
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .403320312
+    height: .254394531
+  - serializedVersion: 2
+    x: 0
+    y: .381835938
+    width: .9375
+    height: .0776367188
+  textureGUIDs:
+  - f7830853dafc5452bb176229a55a279c
+  - 67bfdfa9a8c4e45049775b346b6a915f
+  - 16c849b999666452ea5b98833d912540
+  - 5fac388ac764d44ab946b6be2d0a1b7c
+  - 25747d4e4164a42e4a30d87ab93f4e46
+  textureSizes:
+  - {x: 757, y: 259}
+  - {x: 219, y: 469}
+  - {x: 39, y: 549}
+  - {x: 413, y: 521}
+  - {x: 960, y: 159}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: -.350280523, y: .382978737}
+  - {x: 0, y: 0}
+  - {x: .439285696, y: .458637238}
+  - {x: 0, y: 0}
+  textureNames:
+  - hune
+  - migi
+  - poll
+  - hidari
+  - umi
+  texturePaths:
+  - Assets/Charas/Yacht/hune.png
+  - Assets/Charas/Yacht/migi.png
+  - Assets/Charas/Yacht/poll.png
+  - Assets/Charas/Yacht/hidari.png
+  - Assets/Charas/Yacht/umi.png
+  lastBuildID: 20150714134418875
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

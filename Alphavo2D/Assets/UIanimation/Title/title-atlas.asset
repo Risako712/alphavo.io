@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: title-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f4b34655af52f445886a593d963c792e, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: .494140625
+    width: .205078125
+    height: .4921875
+  - serializedVersion: 2
+    x: .412109375
+    y: .494140625
+    width: .1484375
+    height: .4921875
+  - serializedVersion: 2
+    x: .412109375
+    y: 0
+    width: .169921875
+    height: .4921875
+  - serializedVersion: 2
+    x: .213867188
+    y: .494140625
+    width: .19140625
+    height: .4921875
+  - serializedVersion: 2
+    x: .213867188
+    y: 0
+    width: .197265625
+    height: .4921875
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .212890625
+    height: .4921875
+  textureGUIDs:
+  - 1c567349c74f0416ab8d1bc05a8cfcc5
+  - cdc13bcda276b4962b85aa75b85745f3
+  - f1e36a3a9263846aea90544b0eef5480
+  - 57ddddd966e7046bfb1546b8480cea6d
+  - 9ec93eb2f0f0c44bc931cf9ffc341028
+  - 6eb61ef1f1c4d44d9bcb28d0ec6a60af
+  textureSizes:
+  - {x: 210, y: 252}
+  - {x: 152, y: 252}
+  - {x: 174, y: 252}
+  - {x: 196, y: 252}
+  - {x: 202, y: 252}
+  - {x: 218, y: 252}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - A
+  - L
+  - P
+  - H
+  - V
+  - O
+  texturePaths:
+  - Assets/Buttons/Alphabet/A.png
+  - Assets/Buttons/Alphabet/L.png
+  - Assets/Buttons/Alphabet/P.png
+  - Assets/Buttons/Alphabet/H.png
+  - Assets/Buttons/Alphabet/V.png
+  - Assets/Buttons/Alphabet/O.png
+  lastBuildID: 2015071419060940
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

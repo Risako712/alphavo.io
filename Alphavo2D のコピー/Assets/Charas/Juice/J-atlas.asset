@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: J-atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 262a5a4082ff442c2bd14ad0cd03e03d, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .403320312
+    height: .557617188
+  - serializedVersion: 2
+    x: .108398438
+    y: .55859375
+    width: .1484375
+    height: .09765625
+  - serializedVersion: 2
+    x: 0
+    y: .55859375
+    width: .107421875
+    height: .29296875
+  textureGUIDs:
+  - 4333edfc9b4cc4379ba83941bee97992
+  - 2a56cb2e2c6444573a42429698ac96f4
+  - dff373ffc279e4ca28216b902f96a517
+  textureSizes:
+  - {x: 413, y: 571}
+  - {x: 152, y: 100}
+  - {x: 110, y: 300}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: -.010714286, y: -.179142863}
+  - {x: -1.26693487, y: -.72778368}
+  textureNames:
+  - juice
+  - kori
+  - storo
+  texturePaths:
+  - Assets/Charas/Juice/juice.png
+  - Assets/Charas/Juice/kori.png
+  - Assets/Charas/Juice/storo.png
+  lastBuildID: 20150711014626380
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

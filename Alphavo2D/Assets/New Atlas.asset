@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: New Atlas
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  uvs: []
+  textureGUIDs:
+  - f3aae5e0f98014a85b48de30cd32d17a
+  - 4dc25bb1fecce4ab3b3dcca5797141db
+  - 2772129469f5d49bf97226fd6e5dffe5
+  - 0326f1fc6bcc94c85acca11fae6bf35f
+  - 3d5f1afcfcb064bbfa70a61e4dd86050
+  textureSizes: []
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: .380357146, y: .192672417}
+  - {x: 0, y: 0}
+  - {x: -.005357143, y: .421357155}
+  - {x: .378251314, y: .402925521}
+  textureNames: []
+  texturePaths: []
+  lastBuildID: 
+  needsRebuilt: 1
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0
